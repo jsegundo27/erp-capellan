@@ -1,0 +1,89 @@
+<
+div class = "section-slider-cotenedor" >
+    <
+    img src = "../images/banner-slider.png"
+alt = "" >
+    <
+    div class = "section-banner"
+id = "slider" >
+    <
+    h1 > ESPECIALIZACIONES <
+    /h1> <
+    div class = "barra" > < /div> <
+    h3 >
+    <
+    p class = "parrafo1" > COMPLEMENTA TUS < /p> <
+    p class = "parrafo2" > HABILIDADES. < /p> <
+    /h3> <
+    button > Mas información < /button> <
+    /div> <
+    /div>
+
+
+
+
+    .section-banner {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    min-width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+
+.section-banner {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    min-width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.section-banner h1 {
+    font-size: 5rem;
+    text-shadow: 1px 1px 2px black;
+    color: #fff;
+}
+
+.section-banner .parrafo1 {
+    padding-left: 10px;
+    background: #fF8400;
+    font-size: 2em;
+    letter-spacing: 2PX;
+    width: 83%;
+}
+
+.section-banner .parrafo2 {
+    background: #fF8400;
+    font-size: 2em;
+    padding-left: 10px;
+    width: 55%;
+}
+
+.section-banner button {
+    margin-top: 58px;
+    border-radius: 15px;
+    color: hsl(357, 78%, 32%);
+    padding: 2px;
+    font-weight: 400;
+    font-size: 35px;
+    width: 300px;
+    border: none;
+    font-family: 'Bahnschrift';
+    box-shadow: 10px 5px 8px rgb(102, 102, 102);
+    cursor: pointer;
+}
+
+.section-banner .barra {
+    border-bottom: 10px solid #fF8400;
+    width: 78%;
+    margin-bottom: 25px;
+}
